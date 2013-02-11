@@ -1,5 +1,4 @@
 <?php 
 
-
-echo whoami;
+echo `git pull 2>&1`;
 ?>
