@@ -1,0 +1,36 @@
+::-moz-selection { background: #A4081D; color: #fff; text-shadow: none; }
+
+::selection { background: #A4081D; color: #fff; text-shadow: none; }
+
+/****************
+       GLOBAL
+*****************/
+
+*{font-family: 'Arial', sans-serif;}
+
+/****************
+       HEADER
+*****************/
+
+header #logo{margin-top:20px; margin-bottom:20px;}
+header nav{border:1px solid #7b0909; background:#eeeeee;}
+header .nav{margin:0;} 
+header nav li{display:inline-block;}
+header nav li a{padding:5px; margin:15px 5px 10px 15px; color:#727272; letter-spacing: .8px; font-size:11px;font-weight: bold;}
+header nav li a:hover{color:#7b0909;}
+header nav li a.active{color:#7b0909;}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) { 
+
+
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 767px) { 
+    body{padding:0;}
+    header #logo{text-align: center;}
+    header nav{text-align:center;}
+    
+}
